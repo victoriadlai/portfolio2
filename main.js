@@ -2,7 +2,7 @@
 // URL: https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_eff_animate_smoothscroll
 
 
-$(document).ready(function(){
+/*$(document).ready(function(){
   // Add smooth scrolling to all links
   $("a").on('click', function(event) {
 
@@ -23,5 +23,13 @@ $(document).ready(function(){
 
       });
     } // End if
+  });
+});*/
+
+$(document).ready(function($) {
+ 
+  $(".scroll").click(function(event){   
+    event.preventDefault();
+    $('html,body').stop().animate({scrollTop:$(this.hash).offset().top}, 500);
   });
 });

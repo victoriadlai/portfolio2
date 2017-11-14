@@ -101,7 +101,6 @@ body {
     overflow: hidden;
 }
 .separate div{
-   min-height: 600px;
    padding: 10px;
 }
 
@@ -174,54 +173,129 @@ body {
     font-family: Georgia;
 }
 
-h1 {
+.sectionheader {
   font-family: 'Teko';
   text-shadow: 2px 2px 4px #000000;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
-}
+@media only screen and (max-device-width : 320px) {
+  body p {
+    font-size: 24px;
+  }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
+  #name p {
+    font-size: 72px;
+  }
 
-}
+  .sectionheader {
+    width: 100%;
+    text-align: center;
+  }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
+  .sectionheader h1 {
+    font-size: 50px;
+  }
 
-}
+  #selfie {
+    width:100%;
+  }
 
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
+  #abouttext {
+    width: 100%;
+  }
 
-}
+  .separate div {
+    min-height: 0px;
+  }
 
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+  .project-bound {
+    width: 100%;
+  }
 
-}
-
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
+  .description {
+    width: 100%;
+  }
 
 }
 
+@media only screen and (min-device-width : 321px) and (max-device-width : 767px) {
+  body p{
+    font-size: 24px;
+  }
+
+  #name p {
+    font-size: 95px;
+  }
+
+  .sectionheader {
+    width: 100%;
+    text-align: center;
+  }
+
+  .sectionheader h1 {
+    font-size: 50px;
+  }
+
+  #selfie {
+    width:100%;
+  }
+
+  #abouttext {
+    width: 100%;
+  }
+
+  .separate div {
+    min-height: 0px;
+  }
+
+  .project-bound {
+    width: 100%;
+  }
+
+  .description {
+    width: 100%;
+  }
+
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  body p{
+    font-size: 24px;
+  }
+
+  #name p {
+    font-size: 100px;
+  }
+
+  .sectionheader {
+    width: 100%;
+    text-align: center;
+  }
+
+  .sectionheader h1 {
+    font-size: 50px;
+  }
+
+  #selfie {
+    width:100%;
+  }
+
+  #abouttext {
+    width: 100%;
+  }
+
+  .separate div {
+    min-height: 0px;
+  }
+
+  .project-bound {
+    width: 100%;
+  }
+
+  .description {
+    width: 100%;
+  }
+
+}
 
