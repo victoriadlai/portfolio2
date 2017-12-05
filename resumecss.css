@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'Teko';
+    src: url('https://fonts.googleapis.com/css?family=Teko');
+}
+
+@font-face {
+    font-family: 'Reem Kufi';
+    src: url('https://fonts.googleapis.com/css?family=Reem Kufi');
+}
+
+html {
+  height:100%;
+}
+
+body {
+  background-color: white;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#navigation {
+    width: 100%;
+    background-color: white;
+}
+
+#menu {
+  margin: 0;
+  padding: 0;
+  right: 0;
+  position: fixed;
+  z-index: 1;
+  overflow: hidden;
+  background-color: white;
+  font-family: 'Reem Kufi';
+  width: 100%;
+}
+
+#menu ul {
+  list-style-type: none;
+}
+
+#menu li {
+    float: left;
+}
+
+#menu li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Reem Kufi';
+}
+
+#menu li a:hover {
+  width: 100%;
+  color: gray;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+
+}
+
+#contactcontainer {
+    overflow: hidden;
+    margin-top: 5%;
+    margin-bottom: 0px;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    z-index: 100; 
+    left: 0;
+    width: 100%;
+    background-color: #FFFFFF;
+    bottom: 0;
+    position: static;
+
+}
+
+#contactinfo {
+    font-family: Georgia;
+    
+}
+
+#email {
+  display: inline-block;
+}
+
+#linkedin {
+  display: inline-block;
+}
+
+#instagram {
+  display: inline-block;
+}
+
+#contactmeheader {
+  font-family: 'Reem Kufi';
+  font-size: 18px;
+}

@@ -122,6 +122,7 @@ body {
     height: auto;
     margin-right: 10px;
     float: left;
+    display: inline-block;
 }
 
 #abouttext {
@@ -129,7 +130,8 @@ body {
     float: left; 
     width: 50%; 
     overflow:hidden;
-    padding: 11%;
+    padding: 7%;
+    display: inline-block;
 }
 
 #projectcontainer {
@@ -165,18 +167,68 @@ body {
 #contactcontainer {
     overflow: hidden;
     margin-top: 5%;
+    margin-bottom: 0px;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
+    position: fixed;
+    z-index: 100; 
+    left: 0;
+    width: 100%;
+    background-color: #FFFFFF;
+    bottom: 0;
+    position: static;
+
 }
 
 #contactinfo {
     font-family: Georgia;
+    
+}
+
+#email {
+  display: inline-block;
+}
+
+#linkedin {
+  display: inline-block;
+}
+
+#instagram {
+  display: inline-block;
+}
+
+#contactmeheader {
+  font-family: 'Reem Kufi';
+  font-size: 18px;
 }
 
 .sectionheader {
   font-family: 'Teko';
   text-shadow: 2px 2px 4px #000000;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-device-width : 320px) {
   body p {
